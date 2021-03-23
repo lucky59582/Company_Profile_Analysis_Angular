@@ -65,7 +65,7 @@
                                 <div *ngIf="registerFormControl.email.errors?.required">
                                     Email is required
                                 </div>
-                                <div *ngIf="registerFormControl.email.errors?.email">
+                                <div *ngIf="registerFormControl.email.errors?.pattern">
                                     Enter a valid email address
                                 </div>
                             </div>
